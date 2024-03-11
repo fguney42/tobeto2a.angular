@@ -73,6 +73,6 @@ export class AppComponent { // görüntü parçalanarak işlenir.
 //   this.inputValue = elemnt.value;
 // }
 }
-
- // Araştırma // ngModel kulllanıcdan alınan verilerin veya kullanıcıya verilen verilerin anlık olarak senkronize olmasını sağlar//
- // Devamı : bir veri modelindeki değişiklikler otomatik olarak kullanıcı arayüzünü günceller ve aynı şekilde kullanıcı arayüzündeki değişiklikler de veri modelini günceller.
+// ngModeller genel olarak interface ve class'lardır.
+ // Araştırma :  // ngModel kulllanıcıdan alınan verilerin veya kullanıcıya verilen verilerin anlık olarak senkronize olmasını sağlar//
+ //  two-way-Data-binding :  bir veri modelindeki değişiklikler otomatik olarak kullanıcı arayüzünü günceller ve aynı şekilde kullanıcı arayüzündeki değişiklikler de veri modelini günceller.
