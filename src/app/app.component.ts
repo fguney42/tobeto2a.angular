@@ -52,7 +52,7 @@ export class AppComponent { // görüntü parçalanarak işlenir.
   // <p>{{ message }}</p> // buradaki ngModel appcomponent içerisinde bir elemanı ile  ilişkilendirmek için kullanılır. // AppComponent kısmından//
   // İnterface'ler,Class'lar api'den alınan veya gonderilen veriler için kullanılır // 
   onBtnChangeClick(event : Event)
-  {
+  { 
     var nameElement = document.getElementById('name')  as HTMLInputElement;
     var emailElement = document.getElementById('email')  as HTMLInputElement;
     var passwordElement = document.getElementById('password') as HTMLInputElement;
