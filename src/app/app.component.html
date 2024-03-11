@@ -1,5 +1,11 @@
-<myform></myform>
-<p class="red">Merhaba {{ title }}</p>
-<p>{{ count }}</p>
-<button (click)="onBtnClick($event)">Tıkla</button>
-<input (change)="onChange($event)" />
+<p class="red"> Merhaba {{title}}</p>
+
+
+<p>{{count}}</p>
+<!-- <input (change)="onChange($event)"> change değişlik olduğu durumda onchange metodunu çalıştırır -->
+<input type="text" id="name" placeholder="isiminizi giriniz" >
+<input type="text" id="email" placeholder="emailinizi giriniz">
+<input type="text" id="password"placeholder="şifrenizi giriniz">
+<button (click)="onBtnChangeClick($event)">Verileri eklemek için lütfen tıklayınız</button>
+<p id="output"></p>
+<!-- <app-form> </app-form> -->
